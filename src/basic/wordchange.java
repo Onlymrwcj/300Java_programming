@@ -20,6 +20,7 @@ public class wordchange {
         //对于第一位数进行大小写转换
         char c=s.next().charAt(0);
         if(c>='A'&&c<='Z'){
+            //大小写字母之间相差刚好是32
             c+=32;
             System.out.println("这里的大写"+(char)(c-32)+"被转换成了小写字母"+c);
         }
